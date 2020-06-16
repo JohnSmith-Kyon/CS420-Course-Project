@@ -1,2 +1,6 @@
 # CS420-Course-Project
-SJTU, CS420, 2019-2020 Spring, Group 14 
+CS420 Machine Learning
+SJTU 2019-2020 Spring
+Group 14 
+
+Build a model for the electron microscopy image segmentation.
