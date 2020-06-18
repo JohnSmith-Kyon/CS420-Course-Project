@@ -12,6 +12,7 @@ from skimage.transform import resize
 from keras.preprocessing.image import ImageDataGenerator
 from keras.preprocessing import image
 from skimage import img_as_ubyte
+from PIL import Image
 
 # Read the images and output the numpy arrays
 def get_data(image_path, label_path):
@@ -60,7 +61,10 @@ def Test_Generator(path):
 def saveResult(path, npyfile, num_class = 2):
     for i, item in enumerate(npyfile):
         image = item[:,:,0]
-        io.imsave(os.path.join(path,"%d_predict.png"%i),img_as_ubyte(image))
+        # io.imsave(os.path.join(path,"%d_predict.png"%i),img_as_ubyte(image))
+        image = Image.fromarray(img_as_ubyte(image))
+        image = image.convert('1')
+        image.save(os.path.join(path, "%d_predict.png" % i))
 
 
 if __name__ == '__main__':
