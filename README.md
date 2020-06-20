@@ -5,7 +5,7 @@ SJTU 2019-2020 Spring.
 
 Group 14 .
 
-Build a model for the electron microscopy image segmentation.
+U-Net-v1.1 is the baseline of U-Net.
 
 1. The generated images are included in  '/result/'.
 
