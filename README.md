@@ -1,4 +1,4 @@
-# CS420-Course-Project
+# CS420 Course Project
 CS420 Machine Learning.
 
 SJTU 2019-2020 Spring.
