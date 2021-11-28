@@ -13,4 +13,4 @@ Precautions
 -----------
 1. The generated images are included in  '/result/'.
 
-2. Remember to check different branches for different methods.
+2. Remember to check different branches for different approaches.
